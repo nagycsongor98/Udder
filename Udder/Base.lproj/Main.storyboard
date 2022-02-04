@@ -18,16 +18,23 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Udder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wnI-g8-OOo">
                                 <rect key="frame" x="153.5" y="424" width="107" height="48"/>
+                                <color key="backgroundColor" red="0.55641281600000003" green="0.16134467720000001" blue="0.1450605392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
+                                <color key="highlightedColor" red="0.48367171399999997" green="0.84258943799999997" blue="0.55709747730000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="house" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Zhn-B9-NU6">
+                                <rect key="frame" x="87" y="513" width="240" height="20"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Zhn-B9-NU6" firstAttribute="top" secondItem="wnI-g8-OOo" secondAttribute="bottom" constant="42" id="Dhw-g0-Un6"/>
+                            <constraint firstItem="Zhn-B9-NU6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="Fw6-eQ-iFU"/>
                             <constraint firstItem="wnI-g8-OOo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fz0-Hh-IHF"/>
                             <constraint firstItem="wnI-g8-OOo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KBU-vh-Rm5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zhn-B9-NU6" secondAttribute="trailing" constant="87" id="ize-cM-vVg"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -37,6 +44,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="house" catalog="system" width="128" height="106"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
