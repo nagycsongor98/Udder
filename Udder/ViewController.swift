@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     }
 
     override func viewDidLayoutSubviews() {
-        priint("szia")
+        priint("szia mia")
     }
     
     override func didReceiveMemoryWarning() {
